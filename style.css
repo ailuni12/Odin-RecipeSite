@@ -11,3 +11,48 @@ a {
 h1 {
     font-weight: 900;
 }
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* containers */
+
+.main-container {
+    width:80%;
+    margin: 2em auto 4em auto;
+    padding: 1em;
+    background-color: blanchedalmond;
+}
+
+.image-container img {
+    object-fit: cover;
+    max-height: 20rem;
+}
+
+/* buttons */
+
+.button {
+    padding: 1em 0;
+    width:100%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.home {
+    color:white;
+    background-color: black;
+}
+
+.source {
+    border: 1px solid;
+    color:rgb(173, 130, 0);
+    background-color: rgb(255, 249, 242);
+}
+
+/* Text Formatting and styles */
+
+.centered-text {
+    text-align: center;
+}
